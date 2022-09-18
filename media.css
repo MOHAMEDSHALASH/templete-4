@@ -1,0 +1,49 @@
+@media(max-width:550px){
+    .bar-container{
+        width: 1cm;
+    }
+    .bar{
+        width: 1.2cm;
+        padding: 0px 4px;
+        overflow: hidden;
+    }
+    .bar h3{
+        display: none;
+    }
+    .bar h3:before{
+        display: none;
+    }
+    .bar h3:after{
+        display: none;
+    }
+    .bar ul{
+        margin-top: 10px;
+    }
+    main{
+        width: calc(100% - 1.2cm);
+    }
+}
+@media(max-width:900px){
+    .table-dashboard{
+    overflow: scroll;
+    }
+    .table-dashboard table{
+        width: 900px;
+    }
+    .table-dashboard::-webkit-scrollbar{
+        height: 4px;
+    }
+    main{
+        padding: 0 15px ;
+    }
+}
+@media(max-width:400px){
+    .dashboard-boxes section{
+        width: 95%;
+    }
+}
+@media(max-width:370px){
+    body{
+        width: 370px;
+    }
+}
